@@ -1,10 +1,13 @@
-import InputView from "./components/inputView";
-import PersonalInfoSection from "./components/personalInputSection";
+import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
+import Main from "./components/main/main";
 
 function App() {
   return (
     <div className="App">
-      <PersonalInfoSection/>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
