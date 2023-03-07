@@ -1,13 +1,9 @@
-import Footer from "./components/footer/footer";
-import Header from "./components/header/header";
-import Main from "./components/main/main";
+import PersonalData from "./components/main/components/alternative/personalData";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Footer />
+      <PersonalData/>
     </div>
   );
 }
